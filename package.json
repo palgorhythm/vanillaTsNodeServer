@@ -1,0 +1,21 @@
+{
+    "name": "vanilla-server",
+    "version": "1.0.0",
+    "description": "vanilla nodejs server",
+    "main": "index.js",
+    "repository": "git@github.com:palgorhythm/vanillaServer.git",
+    "author": "palgorhythm <jacob@mothership.com>",
+    "license": "MIT",
+    "scripts": {
+        "format": "prettier . --write",
+        "script": "tsc && node"
+    },
+    "dependencies": {
+        "tsc": "^2.0.4",
+        "typescript": "^4.6.4"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.34",
+        "prettier": "^2.6.2"
+    }
+}
